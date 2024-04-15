@@ -1,5 +1,6 @@
 # Carve3D
-Code for CVPR 2024 paper [Carve3D: Improving Multi-view Reconstruction Consistency for Diffusion Models with RL Finetuning](https://desaixie.github.io/carve-3d/)
+Code for CVPR 2024 paper, *Carve3D: Improving Multi-view Reconstruction Consistency for Diffusion Models with RL Finetuning*.  
+[Project Website](https://desaixie.github.io/carve-3d/)  [ArXiv Paper](https://arxiv.org/abs/2312.13980)
 
 Code coming soon...
 
