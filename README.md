@@ -1,5 +1,8 @@
 # Carve3D
-Code for CVPR 2024 paper, *Carve3D: Improving Multi-view Reconstruction Consistency for Diffusion Models with RL Finetuning*, by Desai Xie, Jiahao Li, Hao Tan, Xin Sun, Zhixin Shu, Yi Zhou, Sai Bi, Sören Pirk, Arie E. Kaufman.  
+Code for CVPR 2024 paper, *Carve3D: Improving Multi-view Reconstruction Consistency for Diffusion Models with RL Finetuning*, by Desai Xie, Jiahao Li, Hao Tan, Xin Sun, Zhixin Shu, Yi Zhou, Sai Bi, Sören Pirk, Arie E. Kaufman, a collaboration between Adobe Research, Stony Brook University, TTIC, and Kiel University.  
+
+<img src="https://github.com/desaixie/carve3d/assets/32966374/acb3c6ba-19cd-478f-a923-286c4c4f9a73" width="550"/>
+
 [Project Website](https://desaixie.github.io/carve-3d/)  [ArXiv Paper](https://arxiv.org/abs/2312.13980)
 
 This repository does not contain the implementation of the SDXL-based multiview diffusion model and the sparse-view large reconstruction model proposed in [Instant3D](https://jiahao.ai/instant3d/).
@@ -13,12 +16,15 @@ Pull requests are welcome!
 - [x] Multi-view Reconstruction Consistency (MRC) metric
   - [ ] an open-sourced multi-view/sparse-view reconstruction model. Pull requests are welcomed!
 
-### Installation
+## Installation
 ```
 cd ddpo
 pip install -e .
 ```
-### Training
+
+![method](https://desaixie.github.io/carve-3d/static/images/figure_overview.png)
+
+## Training
 ```
 bash carve3d_train.sh
 ```
